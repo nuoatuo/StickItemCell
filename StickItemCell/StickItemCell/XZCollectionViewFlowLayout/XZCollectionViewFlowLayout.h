@@ -6,12 +6,12 @@
 //  Copyright © 2017年 夜风. All rights reserved.
 //
 
+#pragma mark ***流水布局子类***
 
 #import <UIKit/UIKit.h>
 
-
 /**
- 获得悬浮视图Yblock
+ 获得悬浮视图Y的block
  */
 typedef void (^XZCollectionViewFlowLayoutGetStickY)(CGFloat);
 
