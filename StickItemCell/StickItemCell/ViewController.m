@@ -162,7 +162,7 @@ typedef enum : NSUInteger {
     }
     self.stickView.frame = stickFrame;
     
-    //3.显示分栏视图
+    //3.显示悬浮视图
     self.stickView.hidden = NO;
 }
 
