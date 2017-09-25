@@ -26,7 +26,7 @@
 
 #pragma mark - system
 /**
- 重绘布局属性: 修改元素间距
+ 重绘布局属性
  */
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect {
     
@@ -55,6 +55,7 @@
         //NSLog(@"attributes:  section=%ld, item =%ld",attributes.indexPath.section,attributes.indexPath.item);
         if (attributes.indexPath != self.stickIndexPath) continue;
         
+        //回调
         if (attributes.frame.origin.y > 0.0) {
             self.getStickTop(attributes.frame.origin.y);
         }

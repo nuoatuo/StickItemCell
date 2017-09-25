@@ -24,7 +24,7 @@ typedef void (^XZCollectionViewFlowLayoutGetStickY)(CGFloat);
 @property (nonatomic, copy) XZCollectionViewFlowLayoutGetStickY getStickTop;
 
 /**
- 实例化"子类流水布局"
+ 实例化"流水布局子类"
  
  @param stickIndexPath 悬浮位置
  @return self
