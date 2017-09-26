@@ -207,7 +207,7 @@ typedef enum : NSUInteger {
 
     //悬浮Cell
     if (indexPath.section == XZStickSection) {
-        return CGSizeMake(kScreenWidth, self.stickView.frame.size.height);
+        return CGSizeMake(kScreenWidth, self.stickView.frame.size.height + kPadding);
     }
     
     //图片Cell

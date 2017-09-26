@@ -17,7 +17,7 @@
  */
 + (instancetype)classInit {
     XZStickView *view = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
-    view.frame = CGRectMake(0.0, 0.0, [UIScreen mainScreen].bounds.size.width, 64.0);
+    view.frame = CGRectMake(0.0, 0.0, [UIScreen mainScreen].bounds.size.width, 54.0);
     view.margin = 10.0;
     
     return view;
